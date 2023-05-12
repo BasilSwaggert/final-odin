@@ -1,0 +1,30 @@
+.comment-header {
+  display: flex;
+  margin: 0 8px;
+  align-items: center;
+}
+
+.user-icon {
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #ccc;
+  margin-right: 8px;
+  height: 28px;
+}
+
+.user-name {
+  font-size: 12px;
+  font-weight: bold;
+  color: #1c1c1c;
+  line-height: 20px;
+}
+
+.user-name:hover {
+  text-decoration: underline;
+}
+
+.comment-info {
+  color: rgb(120, 124, 126);
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 9px;
+}

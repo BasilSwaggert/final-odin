@@ -1,0 +1,16 @@
+.comment-footer .votes {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 4px;
+  width: 86px;
+}
+
+.comment-footer {
+  display: flex;
+  margin-left: 40px;
+}
+
+.comment-footer .footer-comments {
+  cursor: pointer;
+}

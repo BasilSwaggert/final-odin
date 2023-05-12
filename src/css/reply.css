@@ -1,0 +1,50 @@
+.reply textarea {
+  font-family: "Noto-Sans", Arial, sans-serif;
+  padding: 8px 16px;
+  resize: vertical;
+  min-height: 100px;
+  width: 100%;
+  border-color: #ddd;
+}
+
+.reply {
+  margin: 4px 40px 24px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.reply button {
+  padding: 4px 20px;
+  margin: 4px 8px;
+  font-size: 12px;
+  background-color: #0079d3;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: min-content;
+}
+
+.reply button:hover {
+  background-color: #1484d7;
+}
+
+.reply button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.reply button:disabled:hover {
+  background-color: #aaa;
+}
+
+.reply button:disabled:hover::before {
+  content: "Please Log In to ";
+}
+
+@media (max-width: 500px) {
+  .reply {
+    margin: 0;
+  }
+}

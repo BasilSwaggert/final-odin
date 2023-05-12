@@ -1,0 +1,55 @@
+#sorter {
+  max-width: 640px;
+  min-width: 320px;
+  padding: 10px 12px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+#sorter button {
+  color: #0079d3;
+  border: none;
+  background-color: #f6f7f8;
+  font-weight: bold;
+  font-family: "Noto-Sans";
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#sorter button:hover {
+  background-color: #e5e6e7;
+}
+
+#hot::before {
+  /* color is #A2A2A2 */
+  content: url("../assets/img/hot.png");
+}
+
+#hot:hover::before {
+  content: url("../assets/img/hot-hover.png");
+}
+
+#new::before {
+  /* color is #A2A2A2 */
+  content: url("../assets/img/new.png");
+}
+
+#new:hover::before {
+  content: url("../assets/img/new-hover.png");
+}
+
+#top::before {
+  /* color is #A2A2A2 */
+  content: url("../assets/img/top.png");
+}
+
+#top:hover::before {
+  content: url("../assets/img/top-hover.png");
+}

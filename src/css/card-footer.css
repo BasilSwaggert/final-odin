@@ -1,0 +1,49 @@
+.card-footer {
+  display: flex;
+}
+
+.footer-comments {
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  color: #878a8c;
+  padding: 8px;
+  align-items: center;
+}
+
+.comment-num {
+  width: 100%;
+}
+
+.footer-comments:hover {
+  background-color: #e7e7e7;
+}
+
+.footer-comments img {
+  margin-right: 6px;
+}
+
+.card-footer .votes {
+  flex-direction: row;
+  position: relative;
+  display: none;
+  width: 86px;
+}
+
+.card-footer .vote {
+  padding: 0 2px;
+}
+
+.card-footer .vote-num {
+  padding: 0 2px;
+}
+
+@media (max-width: 500px) {
+  .card-footer .votes {
+    display: flex;
+  }
+
+  .card-footer .vote-num {
+    margin: 0 1px;
+  }
+}
